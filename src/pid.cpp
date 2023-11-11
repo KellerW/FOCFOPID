@@ -1,4 +1,4 @@
-#include "pid.h"
+#include "pid.hpp"
 
 void pid::set_p_gain(double p)
 {
@@ -28,8 +28,7 @@ double pid::calcPID(const double set, double err)
 {
     setPoint = set;
     error = err;
-    double e = setPoint - error;
-    
+    return (setPoint - error);
 }
             
 

@@ -1,0 +1,3 @@
+/home/wkeller/gitroot/stl/CMakeFiles/test.dir
+/home/wkeller/gitroot/stl/CMakeFiles/edit_cache.dir
+/home/wkeller/gitroot/stl/CMakeFiles/rebuild_cache.dir
