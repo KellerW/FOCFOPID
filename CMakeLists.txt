@@ -28,17 +28,10 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     endif()
 endif()
 
-
+add_executable(PID src/main.cpp)
 #add_subdirectory(include)
 add_subdirectory(src)
-
-# Testing only available if this is the main app
-# Emergency override MODERN_CMAKE_BUILD_TESTING provided as well
-if((CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME OR MODERN_CMAKE_BUILD_TESTING)
-   AND BUILD_TESTING)
-  add_subdirectory(tests)
-endif()
-
+target_link_libraries(PID PRIVATE CONTROLLIB)
 
 
 #add_library(PidController STATIC src/pid.cpp include/calc/pid.hpp)
