@@ -3,7 +3,7 @@ FOCFIOPID is a example of Fractional Order PID control for BLDC Motor applicatio
 
 ## Pre Requiriments
 
-Get [ROOT] (https://root.cern/install/#build-from-source) lib from CERN 
+Get [ROOT](https://root.cern/install/#build-from-source) lib from CERN 
 For build and install:
 
 Pre requiriments [()]: 
