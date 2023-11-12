@@ -2,7 +2,7 @@
 FOCFIOPID is a example of Fractional Order PID control for BLDC Motor application is written in C++ and built with CMake.
 
 ## Pre Requiriments
-Get [ROOT] https://root.cern/install/#build-from-source lib from CERN 
+Get [ROOT] (https://root.cern/install/#build-from-source) lib from CERN 
 For build and install:
 
 The latest stable branch gets updated automatically on each release.
